@@ -1,0 +1,154 @@
+2022-08-05 02:01:26.428  INFO 26248 --- [restartedMain] com.cg.EurekaServerServiceApplication    : Starting EurekaServerServiceApplication using Java 18.0.1 on LIN24010631 with PID 26248 (C:\Users\AKASHBM\Downloads\Deals_And_Coupons_Finder_App-caseStudy-main\EurekaServerService\target\classes started by akashbm in C:\Users\AKASHBM\Downloads\Deals_And_Coupons_Finder_App-caseStudy-main\EurekaServerService)
+2022-08-05 02:01:26.434  INFO 26248 --- [restartedMain] com.cg.EurekaServerServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-08-05 02:01:26.477  INFO 26248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-05 02:01:26.477  INFO 26248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-05 02:01:27.163  INFO 26248 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c147fc20-fab4-36ea-9425-12a28fb1aa74
+2022-08-05 02:01:27.491  INFO 26248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2022-08-05 02:01:27.499  INFO 26248 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-05 02:01:27.499  INFO 26248 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-08-05 02:01:27.563  INFO 26248 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-05 02:01:27.563  INFO 26248 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1086 ms
+2022-08-05 02:01:27.865  INFO 26248 --- [restartedMain] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2022-08-05 02:01:27.905  INFO 26248 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2022-08-05 02:01:27.906  INFO 26248 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2022-08-05 02:01:28.055  INFO 26248 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2022-08-05 02:01:28.055  INFO 26248 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2022-08-05 02:01:28.834  WARN 26248 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-08-05 02:01:28.931  INFO 26248 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2022-08-05 02:01:28.966  WARN 26248 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-08-05 02:01:28.979  INFO 26248 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-08-05 02:01:28.998  INFO 26248 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-08-05 02:01:28.998  INFO 26248 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2022-08-05 02:01:29.004  INFO 26248 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1659645089003 with initial instances count: 0
+2022-08-05 02:01:29.035  INFO 26248 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2022-08-05 02:01:29.037  INFO 26248 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://localhost:8761/eureka/]
+2022-08-05 02:01:29.111  INFO 26248 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2022-08-05 02:01:29.112  INFO 26248 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2022-08-05 02:01:29.112  INFO 26248 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2022-08-05 02:01:29.112  INFO 26248 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2022-08-05 02:01:29.166  INFO 26248 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://localhost:8761/eureka/
+2022-08-05 02:01:29.172  INFO 26248 --- [restartedMain] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2022-08-05 02:01:29.173  INFO 26248 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2022-08-05 02:01:29.179  INFO 26248 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-08-05 02:01:29.225  INFO 26248 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKASERVERSERVICE with eureka with status UP
+2022-08-05 02:01:29.227  INFO 26248 --- [Thread-13] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2022-08-05 02:01:29.235  INFO 26248 --- [Thread-13] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2022-08-05 02:01:29.236  INFO 26248 --- [Thread-13] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2022-08-05 02:01:29.236  INFO 26248 --- [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2022-08-05 02:01:29.236  INFO 26248 --- [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2022-08-05 02:01:29.236  INFO 26248 --- [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2022-08-05 02:01:29.240  INFO 26248 --- [Thread-13] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2022-08-05 02:01:29.245  INFO 26248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2022-08-05 02:01:29.245  INFO 26248 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2022-08-05 02:01:29.356  INFO 26248 --- [restartedMain] com.cg.EurekaServerServiceApplication    : Started EurekaServerServiceApplication in 3.296 seconds (JVM running for 3.903)
+2022-08-05 02:01:29.587  INFO 26248 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-05 02:01:29.587  INFO 26248 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-05 02:01:29.588  INFO 26248 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-05 02:01:47.350  WARN 26248 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: UNKNOWN - LIN24010631.corp.capgemini.com:8081
+2022-08-05 02:01:47.350  WARN 26248 --- [http-nio-8761-exec-2] c.n.eureka.resources.InstanceResource    : Not Found (Renew): UNKNOWN - LIN24010631.corp.capgemini.com:8081
+2022-08-05 02:01:47.406  INFO 26248 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/LIN24010631.corp.capgemini.com:8081 with status UP (replication=false)
+2022-08-05 02:01:47.406  INFO 26248 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/LIN24010631.corp.capgemini.com:8081 with status UP (replication=false)
+2022-08-05 02:01:48.000  INFO 26248 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/LIN24010631.corp.capgemini.com:8081 with status UP (replication=true)
+2022-08-05 02:01:49.487  INFO 26248 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance COUPONSERVICE/LIN24010631.corp.capgemini.com:CouponService:8085 with status UP (replication=false)
+2022-08-05 02:01:50.000  INFO 26248 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance COUPONSERVICE/LIN24010631.corp.capgemini.com:CouponService:8085 with status UP (replication=true)
+2022-08-05 02:02:29.237  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:03:29.238  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:04:29.245  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2022-08-05 02:05:29.249  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2022-08-05 02:06:29.262  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
+2022-08-05 02:07:29.262  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:08:29.275  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2022-08-05 02:09:29.275  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:10:29.288  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
+2022-08-05 02:10:49.869  INFO 26248 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance COUPONSERVICEUSER/LIN24010631.corp.capgemini.com:CouponServiceUser:9099 with status UP (replication=false)
+2022-08-05 02:10:50.208  INFO 26248 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance COUPONSERVICEUSER/LIN24010631.corp.capgemini.com:CouponServiceUser:9099 with status UP (replication=true)
+2022-08-05 02:11:29.294  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2022-08-05 02:12:29.295  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:13:29.301  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2022-08-05 02:14:29.311  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2022-08-05 02:15:29.311  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:16:29.177  INFO 26248 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 8
+2022-08-05 02:16:29.317  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
+2022-08-05 02:17:29.317  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:18:29.318  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:19:29.319  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:20:29.319  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:21:29.320  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:22:29.320  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:23:29.321  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:24:29.321  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:25:29.322  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:26:29.322  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:27:29.323  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:28:29.323  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:29:29.323  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:30:29.323  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:31:29.178  INFO 26248 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 8
+2022-08-05 02:31:29.323  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:32:29.324  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:33:29.324  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:34:29.325  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:35:29.326  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:36:29.326  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:37:29.327  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:38:29.327  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2022-08-05 02:39:29.328  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:40:29.328  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:41:29.328  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:42:29.328  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:43:29.328  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:44:29.328  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:45:29.328  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:46:29.178  INFO 26248 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 8
+2022-08-05 02:46:29.329  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2022-08-05 02:47:29.329  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2022-08-05 02:48:29.329  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:49:29.329  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:50:29.329  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:51:29.329  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:52:29.330  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:53:29.330  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:54:29.330  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:55:29.330  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:56:29.330  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:57:29.330  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:58:29.330  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 02:59:29.331  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 03:00:29.331  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 03:01:29.178  INFO 26248 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 8
+2022-08-05 03:01:29.332  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 03:02:29.332  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 03:03:29.333  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 03:04:29.333  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 03:05:29.333  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 03:06:29.333  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 03:07:29.334  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 03:08:29.334  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2022-08-05 03:09:29.335  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 03:10:29.335  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 03:11:29.335  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 03:12:29.335  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 03:13:29.336  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2022-08-05 03:14:29.336  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2022-08-05 03:15:29.337  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2022-08-05 03:16:29.178  INFO 26248 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 8
+2022-08-05 03:16:29.338  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2022-08-05 03:17:29.351  INFO 26248 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2022-08-05 03:18:26.531  INFO 26248 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance COUPONSERVICEUSER/LIN24010631.corp.capgemini.com:CouponServiceUser:9099 with status DOWN (replication=false)
+2022-08-05 03:18:26.859  INFO 26248 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance COUPONSERVICE/LIN24010631.corp.capgemini.com:CouponService:8085 with status DOWN (replication=false)
+2022-08-05 03:18:27.039  INFO 26248 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance COUPONSERVICEUSER/LIN24010631.corp.capgemini.com:CouponServiceUser:9099 with status DOWN (replication=true)
+2022-08-05 03:18:27.040  INFO 26248 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance COUPONSERVICE/LIN24010631.corp.capgemini.com:CouponService:8085 with status DOWN (replication=true)
+2022-08-05 03:18:27.191  INFO 26248 --- [RMI TCP Connection(86)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-08-05 03:18:27.195  INFO 26248 --- [RMI TCP Connection(86)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKASERVERSERVICE with eureka with status DOWN
+2022-08-05 03:18:27.225  INFO 26248 --- [RMI TCP Connection(86)-127.0.0.1] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
+2022-08-05 03:18:27.229  INFO 26248 --- [RMI TCP Connection(86)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2022-08-05 03:18:27.230  INFO 26248 --- [RMI TCP Connection(86)-127.0.0.1] com.netflix.servo.monitor.StatsMonitor   : Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2022-08-05 03:18:27.232  INFO 26248 --- [RMI TCP Connection(86)-127.0.0.1] com.netflix.servo.monitor.StatsMonitor   : Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2022-08-05 03:18:27.233  INFO 26248 --- [RMI TCP Connection(86)-127.0.0.1] com.netflix.servo.monitor.StatsMonitor   : Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2022-08-05 03:18:27.233  INFO 26248 --- [RMI TCP Connection(86)-127.0.0.1] com.netflix.servo.monitor.StatsMonitor   : Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2022-08-05 03:18:27.243  INFO 26248 --- [RMI TCP Connection(86)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2022-08-05 03:18:27.244  INFO 26248 --- [RMI TCP Connection(86)-127.0.0.1] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
+2022-08-05 03:18:27.245  INFO 26248 --- [RMI TCP Connection(86)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2022-08-05 03:18:27.247  INFO 26248 --- [RMI TCP Connection(86)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2022-08-05 03:18:27.254  INFO 26248 --- [RMI TCP Connection(86)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-08-05 03:18:27.256  INFO 26248 --- [RMI TCP Connection(86)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
